@@ -3,14 +3,14 @@ package com.ig.maanuy.model
 import jakarta.persistence.*
 
 @Entity
-@Table(name = "tbl_merchant")
-data class Merchant (
+@Table(name = "tbl_category")
+data class Category(
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     val id: Long = 0,
     val name: String,
-    val address: String,
 
-    @OneToMany(mappedBy = "merchant", cascade = [CascadeType.ALL])
+    @OneToMany(mappedBy = "category", cascade = [CascadeType.ALL])
     val menu: Set<Menu> = emptySet()
+
 ): BaseEntity()
