@@ -3,8 +3,8 @@ package com.ig.maanuy.model
 import jakarta.persistence.*
 
 @Entity
-@Table(name = "tbl_menus")
-class Menus(
+@Table(name = "tbl_menu")
+class Menu(
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     var id: Long = 0,
@@ -15,5 +15,5 @@ class Menus(
 
     @ManyToOne
     @JoinColumn(name = "merchant_id", nullable = false)
-    val merchants: Merchants,
+    val merchant: Merchant,
 ): BaseEntity()
