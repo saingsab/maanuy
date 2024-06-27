@@ -1,6 +1,7 @@
 package com.ig.maanuy.model
 
 import jakarta.persistence.*
+import java.util.Collections.emptySet
 
 @Entity
 @Table(name = "tbl_merchant")
