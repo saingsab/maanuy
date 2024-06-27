@@ -1,0 +1,33 @@
+INSERT INTO tbl_category ("name", created_at, created_by) values
+                                                              ('Appetizers',NOW(), NOW()),
+                                                              ('Main Courses',NOW(), NOW()),
+                                                              ('Desserts', NOW(), NOW()),
+                                                              ('Beverages', NOW(), NOW()),
+                                                              ('Salads', NOW(), NOW()),
+                                                              ('Soups', NOW(), NOW()),
+                                                              ('Pasta',NOW(), NOW()),
+                                                              ('Pizza', NOW(), NOW()),
+                                                              ('Sandwiches', NOW(), NOW()),
+                                                              ('Seafood', NOW(), NOW());
+
+INSERT INTO tbl_menu ("name", description, price, imageURI, merchant_id, category_id, created_at, updated_at) VALUES
+                                                                                                                  ('Spring Rolls', 'Crispy spring rolls with vegetables', 5.0, 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1', 1, 1, NOW(), NOW()),
+                                                                                                                  ('Garlic Bread', 'Toasted bread with garlic and butter', 4.0, 'https://images.unsplash.com/photo-1586985286371-68e7f7226447', 1, 1, NOW(), NOW()),
+                                                                                                                  ('Caesar Salad', 'Fresh romaine with Caesar dressing', 7.5, 'https://images.unsplash.com/photo-1568605114967-8130f3a36994', 1, 2, NOW(), NOW()),
+                                                                                                                  ('Grilled Chicken', 'Grilled chicken breast with herbs', 15.0, 'https://images.unsplash.com/photo-1559622214-1a6514dca2c7', 1, 2, NOW(), NOW()),
+                                                                                                                  ('Chocolate Cake', 'Rich chocolate layered cake', 6.5, 'https://images.unsplash.com/photo-1599785209707-eedb7f94dd26', 1, 3, NOW(), NOW()),
+                                                                                                                  ('Cheesecake', 'Classic cheesecake with a graham cracker crust', 6.5, 'https://images.unsplash.com/photo-1606755962773-83c6e20f6677', 1, 3, NOW(), NOW()),
+                                                                                                                  ('Lemonade', 'Freshly squeezed lemonade', 3.0, 'https://images.unsplash.com/photo-1505253758473-236c7c9e59af', 1, 4, NOW(), NOW()),
+                                                                                                                  ('Iced Tea', 'Refreshing iced tea', 2.5, 'https://images.unsplash.com/photo-1560457079-9a6532ccb118', 1, 4, NOW(), NOW()),
+                                                                                                                  ('Greek Salad', 'Salad with feta cheese and olives', 8.0, 'https://images.unsplash.com/photo-1565895405227-4e6384d11d39', 1, 5, NOW(), NOW()),
+                                                                                                                  ('Tomato Soup', 'Creamy tomato soup', 4.5, 'https://images.unsplash.com/photo-1516910911203-9fefff9a3fb3', 1, 6, NOW(), NOW()),
+                                                                                                                  ('Chicken Noodle Soup', 'Classic chicken noodle soup', 5.0, 'https://images.unsplash.com/photo-1589302168068-964664d93dc0', 1, 6, NOW(), NOW()),
+                                                                                                                  ('Spaghetti Carbonara', 'Pasta with creamy carbonara sauce', 12.0, 'https://images.unsplash.com/photo-1565895405227-4e6384d11d39', 1, 7, NOW(), NOW()),
+                                                                                                                  ('Fettuccine Alfredo', 'Pasta with Alfredo sauce', 11.0, 'https://images.unsplash.com/photo-1603079625278-6983d464b1d4', 1, 7, NOW(), NOW()),
+                                                                                                                  ('Margherita Pizza', 'Pizza with tomato, mozzarella, and basil', 10.0, 'https://images.unsplash.com/photo-1603079625278-6983d464b1d4', 1, 8, NOW(), NOW()),
+                                                                                                                  ('Pepperoni Pizza', 'Pizza with pepperoni slices', 11.0, 'https://images.unsplash.com/photo-1592417819709-31b1a43f7ee1', 1, 8, NOW(), NOW()),
+                                                                                                                  ('Turkey Sandwich', 'Sandwich with turkey and cheese', 9.0, 'https://images.unsplash.com/photo-1571091718767-7f707d51b31b', 1, 9, NOW(), NOW()),
+                                                                                                                  ('Ham and Cheese Sandwich', 'Sandwich with ham and cheese', 8.5, 'https://images.unsplash.com/photo-1585238347868-2b4a17d6b8d1', 1, 9, NOW(), NOW()),
+                                                                                                                  ('Grilled Salmon', 'Grilled salmon with lemon butter', 18.0, 'https://images.unsplash.com/photo-1604908177521-6983d464b1d4', 1, 10, NOW(), NOW()),
+                                                                                                                  ('Shrimp Scampi', 'Shrimp cooked in garlic butter sauce', 17.0, 'https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445', 1, 10, NOW(), NOW()),
+                                                                                                                  ('Fish Tacos', 'Tacos with grilled fish and salsa', 12.5, 'https://images.unsplash.com/photo-1553621042-f6e147245754', 1, 10, NOW(), NOW());
