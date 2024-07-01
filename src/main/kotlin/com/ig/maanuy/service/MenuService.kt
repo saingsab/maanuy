@@ -15,17 +15,13 @@ class MenuService @Autowired constructor(
     private val merchantRepository: MerchantRepository,
     private val categoryRepository: CategoryRepository
 ){
-    //= menuRepository.findById(id).orElse(null)
-//    fun getMenuByMerchantId(id: Long): List<Menu> {
-//        menuRepository.findByMerchant(id)
-//    }
 
     fun getMenusByMerchant(merchantId: Long): List<Menu> {
         return menuRepository.findByMerchant(merchantId)
     }
 
     fun getMenusByMerchantAndCategory(merchantId: Long, categoryId: Long): List<Menu> {
-        return menuRepository.findByMerchantAndCategory(1, 1)
+        return menuRepository.findByMerchantAndCategory(merchantId, categoryId)
     }
 
 }

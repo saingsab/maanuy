@@ -15,7 +15,7 @@
 	<description>E-menu and Loyalty cash app</description>
 	<properties>
 		<java.version>17</java.version>
-		<kotlin.version>1.7.0</kotlin.version>
+		<kotlin.version>2.0.0</kotlin.version>
 	</properties>
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.mapstruct/mapstruct -->
