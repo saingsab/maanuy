@@ -33,4 +33,5 @@ class MenuController @Autowired constructor(
         val result = menuService.getMenusByMerchantAndCategory(merchantId, categoryId, page, size)
         return ResponseEntity.ok(result)
     }
+
 }
